@@ -1,10 +1,16 @@
 # SFE
 Salient Feature Extractor for Adversarial Defense on Deep Neural Networks
 
-Requirements
-Python 3.5 
-Tensorflow-gpu -1.3 
-Tflearn-0.3.2. 
+| cuDNN | CUDA |
+| :---- | :--- |
+| 8.0   | 11.0 |
+
+Requirements：
+Python 3.6
+
+Tensorflow-gpu -2.4 
+
+keras2.3.1
 
 Folder images are examples of benign images and their adversarial examples in MNIST. The former can be 
 correctly classified while the latter may lead to misclassification. 
